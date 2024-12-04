@@ -11,6 +11,9 @@ section {
 .logo {
     max-width: 200px !important;
 }
+.owl-carousel .owl-dots {
+    display: none !important;
+}
 .navbar {
     font-family: "Poppins", sans-serif !important;
     font-weight: 400;
@@ -289,10 +292,10 @@ section {
             }
         }
     }
-    .owl-carousel .owl-stage-outer {
+    /* .owl-carousel .owl-stage-outer {
         height: calc(100% + 25px) !important;
         transition: all 300ms ease;
-    }
+    } */
     .item:hover {
         transform: translateY(25px);
         .img::after {
